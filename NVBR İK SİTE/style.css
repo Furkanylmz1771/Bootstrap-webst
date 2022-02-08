@@ -1,0 +1,115 @@
+.navbar-brand{
+    letter-spacing: 3px;
+}
+
+
+
+
+/* ANASAYFA BAŞLANGIÇ  */
+.carousel-item img{
+   height:  530px;
+}
+
+.card{
+    position: relative;
+}
+
+.card .imza{
+    position: absolute;
+    background-color: rgb(36, 8, 160);
+    color: yellow;
+    right: 0;
+    padding: 4px;
+    font-weight: bolder;
+}
+
+.basket{
+    transform: scale(1.03);
+    transition: 0.3s;
+    box-shadow: 5px 5px 5px grey;
+    z-index: 1;
+    border-radius: 6px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.card .basket{
+    position: absolute;
+    background-color: rgb(36, 8, 160);
+    color: yellow;
+    right: 0;
+    padding: 4px;
+    font-weight: bolder;
+}
+
+.card .btn{
+    display: block;
+}
+
+
+
+/* İKİNCİ BÖLÜM BAŞLANGIÇ  */
+
+#two .card{
+    padding: 5px;
+    width: 25%;
+  
+}
+
+#two .card img{
+    margin: 15px;
+    width: 100%;
+
+}
+
+#two .card-body{
+text-align: center;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.span{
+    position: absolute;
+    background-color: rgb(36, 8, 160);
+    color: yellow;
+    right: 0;
+    padding: 4px;
+    font-weight: bolder;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 5px;
+    margin-left: 70px;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+    box-shadow: 10px 10px 10px grey;
+    z-index: 1;
+    border-radius: 6px;
+}
+
+@media(max-width:768px) {
+    #two .card{
+        width: 100%;
+    }
+    .card:hover{
+        transform: none;
+        transition:none;
+        box-shadow: none;;
+        z-index: 1;
+        border-radius: 6px;
+    }
+}
+
+
+.image{
+    width: 150px;
+  margin-left: 480px;
+  padding: 10px;
+  margin-top: 40px;
+}
+
